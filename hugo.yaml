@@ -1,0 +1,124 @@
+baseURL: https://david-inf.github.io/
+languageCode: en-us
+title: David Nardi
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: David Nardi
+  description: "David's personal website."
+  keywords: [AI, Machine Learning, Engineering, Technology, Blog]
+  author: David Nardi
+  
+  defaultTheme: auto
+  disableThemeToggle: false
+  
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+    favicon: "/favicon.svg"
+    favicon16x16: "/favicon.svg"
+    favicon32x32: "/favicon.svg"
+    apple_touch_icon: "/favicon.svg"
+
+  label:
+    text: "David Nardi"
+
+  profileMode:
+    enabled: true
+    title: "David Nardi"
+    subtitle: "AI Engineer"
+    # imageUrl: "/assets/profile.jpg"
+    # imageWidth: 120
+    # imageHeight: 120
+    # imageTitle: ""
+    # buttons:
+    #   - name: Blog
+    #     url: posts
+    #   - name: About
+    #     url: about
+    #   - name: Projects
+    #     url: tags/projects
+
+  socialIcons:
+    - name: GitHub
+      url: "https://github.com/david-inf"
+    - name: LinkedIn
+      url: "https://linkedin.com/in/dn25"
+    - name: Email
+      url: "mailto:david.nardi30@gmail.com"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  # editPost:
+  #   URL: "https://github.com/david-inf/david-inf.github.io/tree/main/content"
+  #   Text: "Suggest Changes"
+  #   appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 5
+    # - identifier: blog
+    #   name: Blog
+    #   url: /posts/
+    #   weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
