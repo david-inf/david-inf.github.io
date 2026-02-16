@@ -16,18 +16,30 @@ I'm an AI Engineering student passionate about deep learning foundations and nat
 - 💻 Building and experimenting with AI/ML systems
 - 🔍 Looking for intern/junior opportunities in AI/ML/SWE for Spring/Summer 2026
 
-<!-- ## Experience
+## Experience
 
-<div class="compact-experience" style="margin:0;">
-<p style="margin:0;"><strong style="color: #0969da;">AI Research Intern</strong> at <em>Mathematical Data Science &amp; Artificial Intelligence Lab, LMU Munich</em> (Sep 2025 - Present)</p>
-<p style="margin:0 0 0 0;"><em>Topic</em>: The go-to algorithm when training LLM is Adam, why is that? Is it possible to improve SGD so to gain insights of how such optimizers work for this class of problems?</p>
-<ul style="margin:-15px 0 0 1.25rem; padding:15px;">
-	<li>Worked on optimization techniques for large language models pretraining</li>
-	<li>Implemented and tested novel algorithms to improve training efficiency</li>
-</ul>
+<div class="compact-experience" style="margin:0; overflow:auto;">
+  <div style="float:right; margin:0 0 0.75rem 1rem; text-align:center; width:200px;">
+    <img src="/research_intern.jpg" width="250" style="display:block;"/>
+    <p style="margin:-0.25rem 0 0 0; font-size:0.85rem; line-height:1.2;"><em>Me working on a side-project about automated theorem-proving during this period</em> :)</p>
+  </div>
+  <p style="margin:0;"><strong style="color: #0969da; font-size: 1.2em;">AI Research Intern</strong> @ <span style="color: #00883A;">LMU Munich, DE</span> <span style="font-size:0.95rem;">(Sep 2025 - Now)</span></p>
+  <p style="margin:0.25rem 0 0 0;">Joined the <em>Mathematical Data Science &amp; AI Lab</em> to work on optimization methods for large language models (LLMs) pretraining.</p>
+  <!-- <p style="margin:0.3rem 0 0 0;"><em>Topic</em>: The go-to algorithm when training LLM is Adam, why is that? Is it possible to improve SGD so to gain insights of how such optimizers work for this class of problems?</p> -->
+  <ul style="margin:-0.3rem 0 0 1.25rem; padding:10px;"> 
+	<li>Conducted research on optimization techniques for large language models pretraining and transformer architectures</li>
+	<li>Designed a sandbox to study the original problem and to test different approaches</li>
+	<li>Built a distributed training pipeline on a Slurm-managed cluster using PyTorch Distributed</li>
+  <li>Managed to find time for side projects with fellow colleagues, focusing on how to automate processes, related to maths and academic reasearch, with AI systems</li>
+  </ul>
+  <p style="margin:0.6rem 0 0 0;">A stakeholder management problem:</p>
+  <ul style="margin:-15px 0 0 0.75rem; padding:15px;">
+    <li><strong>Mathematics perspective:</strong> simplify and solve the optimization problem behind LLMs pretraining</li>
+	<li><strong>Engineering perspective:</strong> build, scale, and stress the proposed method back to the original problem</li>
+  </ul>
 </div>
 
-## Education
+<!-- ## Education
 
 **MSc in AI Engineering** at University of Florence (2023 - Present) -->
 
