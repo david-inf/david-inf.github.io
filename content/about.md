@@ -7,7 +7,7 @@ showToc: false
 
 Hi, I'm **Dave** 👋
 
-I'm an AI Engineering student passionate about deep learning foundations and natural language processing.
+I'm an AI Engineering student with a background in engineering management passionate about deep learning foundations and natural language processing.
 
 ## What I Do
 
@@ -27,12 +27,12 @@ I'm an AI Engineering student passionate about deep learning foundations and nat
   <p style="margin:0.25rem 0 0 0;">Joined the <em>Mathematical Data Science &amp; AI Lab</em> to work on optimization methods for large language models (LLMs) pretraining.</p>
   <!-- <p style="margin:0.3rem 0 0 0;"><em>Topic</em>: The go-to algorithm when training LLM is Adam, why is that? Is it possible to improve SGD so to gain insights of how such optimizers work for this class of problems?</p> -->
   <ul style="margin:-0.3rem 0 0 1.25rem; padding:10px;"> 
-	<li>Conducted research on optimization techniques for large language models pretraining and transformer architectures</li>
-	<li>Designed a sandbox to study the original problem and to test different approaches</li>
-	<li>Built a distributed training pipeline on a Slurm-managed cluster using PyTorch Distributed</li>
-  <li>Managed to find time for side projects with fellow colleagues, focusing on how to automate processes, related to maths and academic reasearch, with AI systems</li>
+	<li>Investigated optimization methods for large language model pretraining and transformer-based architectures.</li>
+	<li>Designed an experimental sandbox to reproduce and analyze a recently identified issue, benchmarking multiple candidate solutions, including preconditioning and learning rate selection strategies</li>
+	<li>Built a distributed training pipeline on a Slurm-managed cluster using PyTorch Distributed, improving training throughput (steps/sec).</li>
+  <li>Collaborated on side-projects exploring AI-driven automation for mathematical and academic workflows.</li>
   </ul>
-  <p style="margin:0.6rem 0 0 0;">A stakeholder management problem:</p>
+  <p style="margin:0 0 0 0;">A stakeholder management problem:</p>
   <ul style="margin:-15px 0 0 0.75rem; padding:15px;">
     <li><strong>Mathematics perspective:</strong> simplify and solve the optimization problem behind LLMs pretraining</li>
 	<li><strong>Engineering perspective:</strong> build, scale, and stress the proposed method back to the original problem</li>
